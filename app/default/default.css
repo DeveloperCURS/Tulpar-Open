@@ -1,0 +1,184 @@
+﻿.filteritem {
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+    border: 1px solid #88a6b7;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#map, #chart_analytics, #register_map, #chart, #chart_gcvp, #chart_tax, #map, #areachart, #chart_spider, #EmplCountAreachart, #GovSupportGeoMap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.reportlink{
+    color: #b3f0f8 !important;
+}
+
+.o-dot {
+    font-size: 200% !important;
+}
+
+.o-st-1 {
+    color: #2b908f !important;
+}
+.o-st-2 {
+    color: #90ee7e !important;
+}
+
+.o-st-3 {
+    color: #f45b5b !important;
+}
+
+.x-btn-default-small {
+    background-image: none !important;
+    width: 159px !important;
+    height: 30px !important;
+    border-width: 0.5px !important;
+    border-radius: 0.5px !important;
+}
+
+.x-form-trigger-wrap {
+    height: 30px !important;
+}
+
+.x-grid-header-ct {
+    border: transparent !important;
+}
+
+.x-panel-body-default {
+    background: #333743 !important;
+    font-style: italic !important;
+    border-color: #333743 !important;
+}
+
+.x-grid-body {
+    border-top-color: transparent !important;
+}
+
+.x-grid-item {
+    background-color: #2d313c !important;
+}
+
+.x-panel-header-title-default {
+    font-size: 17px !important;
+    font-weight: normal !important;
+    color: #7aaaf7 !important;
+    line-height: 18px !important;
+}
+
+.x-btn-over.x-btn-default-small {
+    background-image: none !important;
+    background-color: transparent !important;
+    border-color: #86919e !important;
+}
+
+.x-btn-focus.x-btn-default-small {
+    border-color: #86919e !important;
+}
+
+.x-btn-inner-default-small {
+    font: normal 12px/16px helvetica, arial, verdana, sans-serif !important;
+}
+
+.x-grid-item-selected {
+    background-color: #292d38 !important;
+    color: white !important;
+}
+
+.x-grid-item-over {
+    background-color: transparent !important;
+}
+
+.x-btn-over.x-btn-default-toolbar-small {
+    background-image: none !important;
+    background-color: transparent !important;
+    border-color: #86919e !important;
+}
+
+.x-btn-focus.x-btn-default-toolbar-small {
+    border-color: #86919e !important;
+}
+
+.x-grid-item-focused {
+    background-color: transparent !important;
+    color: #56719d !important;
+}
+
+.x-grid-with-row-lines .x-grid-item {
+    border-color: #333743 !important;
+}
+
+.x-column-header {
+    border-right: 1px solid #333743 !important;
+    font-weight: normal !important;
+    color: #80a5ff !important;
+    background-color: #272b36 !important;
+}
+
+.x-tab-inner-default {
+    font-weight: normal !important;
+}
+
+.x-window-header-title-default {
+    font-weight: normal !important;
+    color: #7aaaf7;
+}
+
+.x-tab.x-tab-active.x-tab-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.x-tab-bar-strip-default {
+    background-color: transparent !important;
+}
+
+.x-tab-default-top {
+    background-color: #272b36 !important;
+}
+
+.x-tav-over.x-tab-default {
+    background-color: #333743 !important;
+    border-color: transparent !important;
+}
+
+.x-form-text-default {
+    background-color: #272b36 !important;
+}
+
+.reportlink {
+    color: #56719d !important;
+}
+
+.x-form-trigger-wrap.x-form-trigger-wrap-focus {
+    border-color: #50545f !important;
+}
+
+.highcharts-legend-item.highcharts-spline-series.highcharts-color-2.highcharts-series-2 {
+    color: white;
+    fill: red !important;
+}
+
+.x-column-header-inner .x-column-header-text {
+    white-space: normal !important;
+}
+.plus-icon {
+    width: 25px;
+    height: 25px;
+    background-image: url("../../assets/img/plus.png");
+    background-size: cover;
+}
+.minus-icon {
+    width: 25px;
+    height: 25px;
+    background-image: url("../../assets/img/plus.png");
+    background-size: cover;
+}
+#chart_graph, #GovSupportAreachart, #GosZakupAreachart {
+    height: 100%;
+}

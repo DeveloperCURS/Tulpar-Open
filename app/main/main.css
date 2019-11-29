@@ -1,0 +1,102 @@
+﻿@font-face {
+    font-family: Georgia;
+    src: url(../../assets/fonts/georgia.ttf);
+}
+
+:root {
+    --main-text-color: #fff;
+    --secondary-text-color: #c0cdda;
+    --tertiary-text-color: #4b618e;
+
+    --main-background-color: #181e2a;
+    --active-background-color: #ff9a00;
+    --map-background-color: #364667;
+    --map-background-hover-color: #4b628e;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.25%;
+}
+
+body {
+    font-family: Georgia, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+}
+
+.header {
+    height: 10rem;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.header h1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.main__map {
+    flex: 1;
+    padding: 1.5rem;
+    height: 550px;
+}
+.main__content {
+    flex: 2;
+    padding: 1.5rem;
+    padding-right: 3rem;
+}
+.main__content-text {
+    text-align: justify;
+    font-size: 1.4rem;
+    color: var(--secondary-text-color);
+}
+.main__content-graphs {
+    margin: 5rem 0;
+}
+.graph__header {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.graph__header {
+    font-family: 'Open sans', Georgia, sans-serif;
+}
+.graph__body {
+    height: 17rem;
+}
+.graph__footer {
+    color: var(--tertiary-text-color);
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 50%;
+    }
+    .main {
+        flex-direction: column;
+    }
+}
